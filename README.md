@@ -112,6 +112,8 @@ This callback is called when the portal closes and after beforeClose.
 #### onUpdate: func
 This callback is called when the portal is (re)rendered.
 
+#### renderIn: DOMNode
+DOM node in which to add the portal. Defaults to `document.body`.
 
 ## Tips & Tricks
 - Does your modal have a fullscreen overlay and the `closeOnOutsideClick` doesn't work? [There is a simple solution](https://github.com/tajo/react-portal/issues/2#issuecomment-92058826).
